@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_garantia_garantia_user,access.garantia.garantia.user,model_garantia_garantia,base.group_user,1,1,1,1
+access_garantia_garantia_admin,access.garantia.garantia.admin,model_garantia_garantia,base.group_system,1,1,1,1
