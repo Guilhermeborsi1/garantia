@@ -12,3 +12,4 @@ class Garantia(models.Model):
     contract_archive = fields.Binary(string='Arquivo do Contrato')
     sight_archive = fields.Binary(string='Arquivo de Vistoria')
     contract_confirmation = fields.Boolean(string='Contrato Confirmado', default=False)
+#    sight_confirmation = fields.Boolean(string='Vistoria Confirmada', default=False)
