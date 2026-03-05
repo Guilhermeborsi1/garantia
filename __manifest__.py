@@ -8,10 +8,11 @@
     "description": """
 Módulo para gerenciamento e controle de garantias de produtos e serviços.
 """,
-    "depends": ["base", "product"],
+    "depends": ["base", "product", 'mail',],
     "data": [
         "views/garantia_views.xml",
         "security/ir.model.access.csv",
+        "data/cron.xml",
     ],
     "installable": True,
     "application": True,

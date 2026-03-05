@@ -25,11 +25,14 @@
                     <group>
                         <field name="name"/>
                         <field name="product_id"/>
+                        <field name="user_ir_id"/>
                         <field name="description"/>
                         <field name="start_date"/>
                         <field name="end_date"/>
                     </group>
                 </sheet>
+
+                <chatter/>
             </form>
         </field>
     </record>
